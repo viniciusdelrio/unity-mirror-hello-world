@@ -1,0 +1,188 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'pt' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Studies/unity-mirror-hello-world/Mirror Hello World
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50445
+Successfully changed project path to: D:/Unity/Studies/unity-mirror-hello-world/Mirror Hello World
+D:/Unity/Studies/unity-mirror-hello-world/Mirror Hello World
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Studies/unity-mirror-hello-world/Mirror Hello World/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002202 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Find all reader and writers took 138 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took136 milliseconds
+Find all reader and writers took 111 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took46 milliseconds
+Find all reader and writers took 105 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took14 milliseconds
+Find all reader and writers took 106 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took59 milliseconds
+Find all reader and writers took 134 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took154 milliseconds
+Find all reader and writers took 97 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 101 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took10 milliseconds
+Find all reader and writers took 102 milliseconds
+Script Module: Mirror.Examples.Cloud.GUI.dll
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 106 milliseconds
+Script Module: Mirror.Cloud.dll
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 153 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took80 milliseconds
+Find all reader and writers took 164 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took36 milliseconds
+Find all reader and writers took 119 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in  5.510 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 3.530200 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.205000 ms MarkObjects: 2.924600 ms  DeleteObjects: 0.119700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Game
+  artifactKey: Guid(da4b2a81de550e549959d277900c365a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(da4b2a81de550e549959d277900c365a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb2ae8e723e9c3a17bb763fbc71ae8e') in 0.010811 seconds
+  Import took 0.013522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.740068 seconds.
+  path: Assets/Game/Art
+  artifactKey: Guid(6e01757ec77b917488a294874547cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art using Guid(6e01757ec77b917488a294874547cdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84dde4367bb5dfb9eaaff21aded1264') in 0.008355 seconds
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.501538 seconds.
+  path: Assets/Game/Art/Wraith
+  artifactKey: Guid(71a7e121db9c85849ba445f6d14cec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith using Guid(71a7e121db9c85849ba445f6d14cec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce331f9b5a9a79c174fbd0ac9140118') in 0.008175 seconds
+  Import took 0.011528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.440658 seconds.
+  path: Assets/Game/Art/Wraith/Wraith_01_Idle_011.png
+  artifactKey: Guid(47169063bc47f5941ac9e730e6a42cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith/Wraith_01_Idle_011.png using Guid(47169063bc47f5941ac9e730e6a42cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c705cdbe90e4a58e5a95575747011') in 0.373294 seconds
+  Import took 0.376942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184739 seconds.
+  path: Assets/Game/Art/Wraith/Wraith_01_Idle_011.png
+  artifactKey: Guid(47169063bc47f5941ac9e730e6a42cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith/Wraith_01_Idle_011.png using Guid(47169063bc47f5941ac9e730e6a42cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c705cdbe90e4a58e5a95575747011') in 0.006808 seconds
+  Import took 0.009754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.087209 seconds.
+  path: Assets/Game/Art/Wraith/Idle
+  artifactKey: Guid(76bd59c872c695742bb4ebd8339c6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith/Idle using Guid(76bd59c872c695742bb4ebd8339c6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afed69523a1e3d9e4976d946788bf67') in 0.007228 seconds
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.490672 seconds.
+  path: Assets/Game/Art/Wraith/Wraith_01_Idle_000.png
+  artifactKey: Guid(811badc3008a58549b21eb7061814856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith/Wraith_01_Idle_000.png using Guid(811badc3008a58549b21eb7061814856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0e72347ad65375cdfb44059fe58545') in 0.012682 seconds
+  Import took 0.015598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.351188 seconds.
+  path: Assets/Game/Art/Wraith/Wraith_01_Idle_005.png
+  artifactKey: Guid(d4454a9f28ff6f64bbbfe8f3ba917b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Art/Wraith/Wraith_01_Idle_005.png using Guid(d4454a9f28ff6f64bbbfe8f3ba917b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e8b973d21f20c649f1afee2089f9b2') in 0.013303 seconds
+  Import took 0.016195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.261105 seconds.
+  path: Assets/Game/Scenes/Example.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scenes/Example.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5786f4e4538334db15431af26fd0dfa0') in 0.009606 seconds
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.637291 seconds.
+  path: Assets/Game/Prefabs
+  artifactKey: Guid(99912bc54001fc240965f7da45ed8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs using Guid(99912bc54001fc240965f7da45ed8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0771004d82085f8a9531d7be625dec') in 0.007255 seconds
+  Import took 0.011266 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
