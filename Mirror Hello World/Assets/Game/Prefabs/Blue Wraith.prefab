@@ -12,12 +12,11 @@ GameObject:
   - component: {fileID: 1011161892812132472}
   - component: {fileID: 3069381714251203488}
   - component: {fileID: 7530013306551454629}
-  - component: {fileID: 3140639884127575052}
-  - component: {fileID: 4988284796293369227}
+  - component: {fileID: -4990394729517367022}
+  - component: {fileID: 9022117871081677760}
   - component: {fileID: 5723337838788156219}
   - component: {fileID: 2065838484393621068}
-  - component: {fileID: 7006826471884519736}
-  - component: {fileID: 1956774857}
+  - component: {fileID: 8680072170583290107}
   m_Layer: 0
   m_Name: Blue Wraith
   m_TagString: Untagged
@@ -128,7 +127,7 @@ MonoBehaviour:
   compressRotation: 0
   interpolateScale: 1
   syncScale: 1
---- !u!95 &3140639884127575052
+--- !u!95 &-4990394729517367022
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -147,7 +146,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4988284796293369227
+--- !u!114 &9022117871081677760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,7 +161,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   clientAuthority: 0
-  animator: {fileID: 3140639884127575052}
+  animator: {fileID: -4990394729517367022}
 --- !u!61 &5723337838788156219
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -210,7 +209,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7006826471884519736
+--- !u!114 &8680072170583290107
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,36 +218,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011161892812132473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f24d9981ec6037d44a5e36fc9e3378e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveInputEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1956774857}
-        m_TargetAssemblyTypeName: MirrorHelloWorld.Movements.LateralMovement, Assembly-CSharp
-        m_MethodName: Move
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1956774857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011161892812132473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fde4d8a0277bb0042b4628502d7dc736, type: 3}
+  m_Script: {fileID: 11500000, guid: 19b093397a2f8d64582cb4d74186e6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  speed: 400
+  moveSpeed: 400
+  rigidbody: {fileID: 2065838484393621068}
+  spriteRenderer: {fileID: 1011161892812132472}
+  animator: {fileID: -4990394729517367022}
